@@ -57,3 +57,10 @@ git remote add origin https://github.com/mleducacion/repaso-ramas.git
 ```sh
 git remote -v
 ```
+
+# Subo al remoto el repositorio local
+
+```sh
+git push -u origin main # La primera vez
+git push
+```
