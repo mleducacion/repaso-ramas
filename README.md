@@ -64,3 +64,12 @@ git remote -v
 git push -u origin main # La primera vez
 git push
 ```
+
+# Para recuperar mi código luego de una catastrofe
+Ir al repositorio de Gibhut, hacer click sobre el botón code y copiar la url a mi repositorio
+
+```sh
+git clone <url-al-repositorio>
+git clone git@github.com:mleducacion/repaso-ramas.git ./ # clona en el directorio actual
+git clone git@github.com:mleducacion/repaso-ramas.git # crea una carpeta (repaso-ramas) y clona el repositorio remoto al local.
+```
